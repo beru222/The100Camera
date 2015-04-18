@@ -13,6 +13,8 @@
 		CD872FB31AE2427A0056DD46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD872FB21AE2427A0056DD46 /* Images.xcassets */; };
 		CD872FB61AE2427A0056DD46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD872FB41AE2427A0056DD46 /* LaunchScreen.xib */; };
 		CD872FC21AE2427A0056DD46 /* The100CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD872FC11AE2427A0056DD46 /* The100CameraTests.swift */; };
+		CD872FCC1AE244D70056DD46 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CD872FCB1AE244D70056DD46 /* LICENSE */; };
+		CD872FCE1AE244E80056DD46 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CD872FCD1AE244E80056DD46 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CD872FBB1AE2427A0056DD46 /* The100CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = The100CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD872FC01AE2427A0056DD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD872FC11AE2427A0056DD46 /* The100CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The100CameraTests.swift; sourceTree = "<group>"; };
+		CD872FCB1AE244D70056DD46 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD872FCD1AE244E80056DD46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		CD872F9D1AE2427A0056DD46 = {
 			isa = PBXGroup;
 			children = (
+				CD872FCD1AE244E80056DD46 /* README.md */,
+				CD872FCB1AE244D70056DD46 /* LICENSE */,
 				CD872FA81AE2427A0056DD46 /* The100Camera */,
 				CD872FBE1AE2427A0056DD46 /* The100CameraTests */,
 				CD872FA71AE2427A0056DD46 /* Products */,
@@ -194,6 +200,7 @@
 			files = (
 				CD872FB11AE2427A0056DD46 /* Main.storyboard in Resources */,
 				CD872FB61AE2427A0056DD46 /* LaunchScreen.xib in Resources */,
+				CD872FCC1AE244D70056DD46 /* LICENSE in Resources */,
 				CD872FB31AE2427A0056DD46 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD872FCE1AE244E80056DD46 /* README.md in Sources */,
 				CD872FAE1AE2427A0056DD46 /* ViewController.swift in Sources */,
 				CD872FAC1AE2427A0056DD46 /* AppDelegate.swift in Sources */,
 			);
